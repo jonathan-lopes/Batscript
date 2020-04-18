@@ -1,11 +1,11 @@
 @echo off
 
-Title Desistalador Brother driver
+Title Printer driver uninstaller
 
 REM ' -------------------------------------------------------------
-REM ' Criado por: Jonathan - Jonathan.oliveira@cardiopulmonar.net.br
+REM ' Criado por: Jonathan - https://github.com/jonathan-lopes
 REM ' Data: 26/01/2020
-REM ' Versรฃo: 01
+REM ' Versao: 01
 REM ' Objetivo: Remover Driver de impressora Brother 
 REM ' -------------------------------------------------------------
 
@@ -14,11 +14,11 @@ Mode 30,8
 color a
 
 Echo.
-echo     ษออออออออออออออออออออป  
-echo     บ               ฐฑฒ  บ
-echo     บ     AGUARDE...     บ
-echo     บ                    บ
-echo     ศออออออออออออออออออออผ
+echo     รรรรรรรรรรรรรรรรรรรรรยป  
+echo     ยบ               ยฐยฑยฒ  ยบ
+echo     ยบ     AGUARDE...     ยบ
+echo     ยบ                    ยบ
+echo     รรรรรรรรรรรรรรรรรรรรรยผ
 Echo.
 
 rundll32 printui.dll,PrintUIEntry /dd /c\\MEZ-LSG-03 /m "Brother DCP-8157DN Printer" /h "x64" /v "Type 3 - User Mode" 
