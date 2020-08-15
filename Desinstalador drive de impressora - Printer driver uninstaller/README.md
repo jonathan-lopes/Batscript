@@ -1,2 +1,4 @@
-# Atenção: Esse script remove apenas o drive.
+# Attention: This script removes only the drive.
+
+
 
